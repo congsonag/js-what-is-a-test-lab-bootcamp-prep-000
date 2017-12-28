@@ -44,3 +44,8 @@ function map(f, a) {
   return result;
 }
 
+var f = function(x) { return x * x * x}
+
+var numbers = [0, 1, 2, 5, 10]
+var cube = map(f, numbers)
+console.log(cube)
