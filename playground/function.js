@@ -27,3 +27,4 @@ function sayHelloTo(firstName) {
 }
 
 sayHelloTo('Son Trinh')
+sayHelloTo(5)
