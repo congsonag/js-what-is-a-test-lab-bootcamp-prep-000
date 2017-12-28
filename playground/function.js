@@ -25,3 +25,5 @@ doSomething('anything')
 function sayHelloTo(firstName) {
   console.log(`Hello, ${firstName}`)
 }
+
+sayHelloTo('Son Trinh')
