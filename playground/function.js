@@ -1,3 +1,4 @@
+/*
 function doNothing() {
 
 }
@@ -19,3 +20,8 @@ function doSomething(thing) {
 }
 
 doSomething('anything')
+*/
+
+function sayHelloTo(firstName) {
+  console.log(`Hello, ${firstName}`)
+}
