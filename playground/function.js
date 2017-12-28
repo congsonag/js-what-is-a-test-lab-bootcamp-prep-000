@@ -8,4 +8,6 @@ function sayHello() {
 
 sayHello()
 
-
+function sayHelloToIsabel() {
+  console.log('Hello, Isabel!')
+}
