@@ -13,3 +13,7 @@ function sayHelloToIsabel() {
 }
 
 sayHelloToIsabel()
+
+function doSomething(thing) {
+  console.log(thing)
+}
