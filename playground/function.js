@@ -20,7 +20,7 @@ function doSomething(thing) {
 }
 
 doSomething('anything')
-*/
+
 
 function sayHelloTo(firstName) {
   console.log(`Hello, ${firstName}`)
@@ -34,3 +34,13 @@ function add(x, y) {
 }
 
 console.log(add(7, 74))
+*/
+
+function map(f, a) {
+  var result = []
+  i;
+  for (i = 0; i != a.length; i++)
+    result[i] = f(a[i]);
+  return result;
+}
+
